@@ -77,4 +77,6 @@ Pinteresting::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+  # added by me - this is to set environment for use with devise gem
+  config.action_mailer.default_url_options = { host: 'http://obscure-brushlands-6993.herokuapp.com/'}
 end
