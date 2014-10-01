@@ -30,4 +30,6 @@ Pinteresting::Application.configure do
   #added by me - this is to set environments for using the devise gem
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
+Paperclip.options[:command_path] = "C:\row\ImageMagick"
+
 end

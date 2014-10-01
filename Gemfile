@@ -32,6 +32,10 @@ gem 'bootstrap-sass'
 #add by me - the devise gem for logins
 gem 'devise', '~>3.3.0'
 
+#added by me, gem "paperclip"
+#gem 'paperclip', '~>4.2'
+gem 'paperclip', github: 'thoughtbot/paperclip'
+
 
 # Use sqlite3 as the development database for Active Record
 group :development, :test do
