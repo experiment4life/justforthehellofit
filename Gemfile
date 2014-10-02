@@ -46,6 +46,7 @@ group :production do
 	gem  'pg'
 	gem  'rails_12factor'
 	gem  'aws-sdk', '~> 1.54.0'
+	gem 'imagemagick-identify', '~> 0.0.1'
 end
 
 
