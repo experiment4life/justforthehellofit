@@ -36,6 +36,8 @@ gem 'devise', '~>3.3.0'
 #gem 'paperclip', '~>4.2'
 gem 'paperclip', github: 'thoughtbot/paperclip'
 
+#removed aws gem file from development environment
+
 
 # Use sqlite3 as the development database for Active Record
 group :development, :test do

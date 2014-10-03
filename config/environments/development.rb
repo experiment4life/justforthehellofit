@@ -32,4 +32,5 @@ Pinteresting::Application.configure do
 
 Paperclip.options[:command_path] = "C:\row\ImageMagick"
 
+
 end
