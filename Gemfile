@@ -38,6 +38,12 @@ gem 'paperclip', github: 'thoughtbot/paperclip'
 
 #removed aws gem file from development environment
 
+#adding json masonary rails for pinterest style 
+gem 'masonry-rails', '~> 0.2.1'
+
+#adding in jquery-turbolinks also to help pintrest style
+gem 'jquery-turbolinks', '~> 2.1.0'
+
 
 # Use sqlite3 as the development database for Active Record
 group :development, :test do
