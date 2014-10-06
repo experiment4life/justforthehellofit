@@ -20,6 +20,9 @@ gem 'coffee-rails', '~> 4.0.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
+#adding in jquery-turbolinks also to help pintrest style
+gem 'jquery-turbolinks', '~> 2.1.0'
+
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 
@@ -40,9 +43,6 @@ gem 'paperclip', github: 'thoughtbot/paperclip'
 
 #adding json masonary rails for pinterest style 
 gem 'masonry-rails', '~> 0.2.1'
-
-#adding in jquery-turbolinks also to help pintrest style
-gem 'jquery-turbolinks', '~> 2.1.0'
 
 
 # Use sqlite3 as the development database for Active Record
